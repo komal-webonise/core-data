@@ -10,9 +10,6 @@
 
 @interface TableViewCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *labelProductPrice;
-
 @property (strong, nonatomic) IBOutlet UILabel *labelProductName;
 @property (strong, nonatomic) IBOutlet UILabel *labelProductDateOfCreation;
-
-
 @end

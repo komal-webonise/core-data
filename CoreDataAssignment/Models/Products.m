@@ -13,7 +13,7 @@
 - (id)init {
     self = [super init];
     productName = @"";
-    productPrice = 0.0;
+    productPrice = 0;
     productCategory = @"";
     return self;
 }

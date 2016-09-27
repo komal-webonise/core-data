@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4F32F521D95DE1400E5024F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F511D95DE1400E5024F /* main.m */; };
+		F4D279191D9B2E48000E33D3 /* AddOrUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D279131D9B2E48000E33D3 /* AddOrUpdateViewController.m */; };
+		F4D2791A1D9B2E48000E33D3 /* ListProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D279151D9B2E48000E33D3 /* ListProductsViewController.m */; };
+		F4D2791B1D9B2E48000E33D3 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D279171D9B2E48000E33D3 /* TableViewCell.m */; };
+		F4D2791C1D9B2E48000E33D3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D279181D9B2E48000E33D3 /* TableViewCell.xib */; };
+		F4D279221D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4D2791E1D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodeld */; };
+		F4D279231D9B2E9C000E33D3 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D279211D9B2E9C000E33D3 /* Products.m */; };
+		F4D279291D9B2F02000E33D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4D279271D9B2F02000E33D3 /* Info.plist */; };
+		F4D2792A1D9B2F02000E33D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D279281D9B2F02000E33D3 /* main.m */; };
+		F4D2792C1D9B2F25000E33D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2792B1D9B2F25000E33D3 /* Default-568h@2x.png */; };
 		F4F32F551D95DE1400E5024F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F541D95DE1400E5024F /* AppDelegate.m */; };
-		F4F32F581D95DE1400E5024F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F571D95DE1400E5024F /* ViewController.m */; };
 		F4F32F5B1D95DE1400E5024F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F32F591D95DE1400E5024F /* Main.storyboard */; };
-		F4F32F5E1D95DE1400E5024F /* CoreDataAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F5C1D95DE1400E5024F /* CoreDataAssignment.xcdatamodeld */; };
 		F4F32F601D95DE1400E5024F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F32F5F1D95DE1400E5024F /* Assets.xcassets */; };
 		F4F32F631D95DE1400E5024F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F32F611D95DE1400E5024F /* LaunchScreen.storyboard */; };
-		F4F32F6C1D95DEB100E5024F /* ListProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F6B1D95DEB100E5024F /* ListProductsViewController.m */; };
-		F4F32F6F1D95DEDD00E5024F /* AddOrUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F6E1D95DEDD00E5024F /* AddOrUpdateViewController.m */; };
-		F4F32F721D95F13300E5024F /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F711D95F13300E5024F /* Products.m */; };
-		F4F32F741D95F27200E5024F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F32F731D95F27200E5024F /* TableViewCell.xib */; };
-		F4F32F771D95F2AB00E5024F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F32F761D95F2AB00E5024F /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4D279121D9B2E48000E33D3 /* AddOrUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddOrUpdateViewController.h; path = "View Controllers/AddOrUpdateViewController.h"; sourceTree = "<group>"; };
+		F4D279131D9B2E48000E33D3 /* AddOrUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddOrUpdateViewController.m; path = "View Controllers/AddOrUpdateViewController.m"; sourceTree = "<group>"; };
+		F4D279141D9B2E48000E33D3 /* ListProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListProductsViewController.h; path = "View Controllers/ListProductsViewController.h"; sourceTree = "<group>"; };
+		F4D279151D9B2E48000E33D3 /* ListProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListProductsViewController.m; path = "View Controllers/ListProductsViewController.m"; sourceTree = "<group>"; };
+		F4D279161D9B2E48000E33D3 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = "View Controllers/TableViewCell.h"; sourceTree = "<group>"; };
+		F4D279171D9B2E48000E33D3 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = "View Controllers/TableViewCell.m"; sourceTree = "<group>"; };
+		F4D279181D9B2E48000E33D3 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = "View Controllers/TableViewCell.xib"; sourceTree = "<group>"; };
+		F4D2791F1D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataAssignment.xcdatamodel; sourceTree = "<group>"; };
+		F4D279201D9B2E9C000E33D3 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Products.h; path = Models/Products.h; sourceTree = "<group>"; };
+		F4D279211D9B2E9C000E33D3 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Products.m; path = Models/Products.m; sourceTree = "<group>"; };
+		F4D279251D9B2EDA000E33D3 /* CONSTANTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CONSTANTS.h; path = Constants/CONSTANTS.h; sourceTree = "<group>"; };
+		F4D279271D9B2F02000E33D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Common Files/Info.plist"; sourceTree = "<group>"; };
+		F4D279281D9B2F02000E33D3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Common Files/main.m"; sourceTree = "<group>"; };
+		F4D2792B1D9B2F25000E33D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F4F32F4D1D95DE1400E5024F /* CoreDataAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4F32F511D95DE1400E5024F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4F32F531D95DE1400E5024F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4F32F541D95DE1400E5024F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4F32F561D95DE1400E5024F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4F32F571D95DE1400E5024F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F4F32F5A1D95DE1400E5024F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F4F32F5D1D95DE1400E5024F /* CoreDataAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataAssignment.xcdatamodel; sourceTree = "<group>"; };
 		F4F32F5F1D95DE1400E5024F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4F32F621D95DE1400E5024F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4F32F641D95DE1400E5024F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4F32F6A1D95DEB100E5024F /* ListProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListProductsViewController.h; sourceTree = "<group>"; };
-		F4F32F6B1D95DEB100E5024F /* ListProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListProductsViewController.m; sourceTree = "<group>"; };
-		F4F32F6D1D95DEDD00E5024F /* AddOrUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOrUpdateViewController.h; sourceTree = "<group>"; };
-		F4F32F6E1D95DEDD00E5024F /* AddOrUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOrUpdateViewController.m; sourceTree = "<group>"; };
-		F4F32F701D95F13300E5024F /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
-		F4F32F711D95F13300E5024F /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
-		F4F32F731D95F27200E5024F /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		F4F32F751D95F2AB00E5024F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		F4F32F761D95F2AB00E5024F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		F4F32F781D960F5E00E5024F /* CONSTANTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4D278E51D99D3EA000E33D3 /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D279271D9B2F02000E33D3 /* Info.plist */,
+				F4D279281D9B2F02000E33D3 /* main.m */,
+			);
+			name = "Common Files";
+			sourceTree = "<group>";
+		};
+		F4D2791D1D9B2E5A000E33D3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4D279121D9B2E48000E33D3 /* AddOrUpdateViewController.h */,
+				F4D279131D9B2E48000E33D3 /* AddOrUpdateViewController.m */,
+				F4D279141D9B2E48000E33D3 /* ListProductsViewController.h */,
+				F4D279151D9B2E48000E33D3 /* ListProductsViewController.m */,
+				F4D279161D9B2E48000E33D3 /* TableViewCell.h */,
+				F4D279171D9B2E48000E33D3 /* TableViewCell.m */,
+				F4D279181D9B2E48000E33D3 /* TableViewCell.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F4D279241D9B2EA9000E33D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2791E1D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodeld */,
+				F4D279201D9B2E9C000E33D3 /* Products.h */,
+				F4D279211D9B2E9C000E33D3 /* Products.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4D279261D9B2EDF000E33D3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F4D279251D9B2EDA000E33D3 /* CONSTANTS.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		F4F32F441D95DE1400E5024F = {
 			isa = PBXGroup;
 			children = (
+				F4D2792B1D9B2F25000E33D3 /* Default-568h@2x.png */,
 				F4F32F4F1D95DE1400E5024F /* CoreDataAssignment */,
 				F4F32F4E1D95DE1400E5024F /* Products */,
 			);
@@ -75,26 +117,16 @@
 		F4F32F4F1D95DE1400E5024F /* CoreDataAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				F4F32F731D95F27200E5024F /* TableViewCell.xib */,
+				F4D279261D9B2EDF000E33D3 /* Constants */,
+				F4D279241D9B2EA9000E33D3 /* Models */,
+				F4D2791D1D9B2E5A000E33D3 /* View Controllers */,
 				F4F32F531D95DE1400E5024F /* AppDelegate.h */,
 				F4F32F541D95DE1400E5024F /* AppDelegate.m */,
-				F4F32F561D95DE1400E5024F /* ViewController.h */,
-				F4F32F571D95DE1400E5024F /* ViewController.m */,
 				F4F32F591D95DE1400E5024F /* Main.storyboard */,
 				F4F32F5F1D95DE1400E5024F /* Assets.xcassets */,
 				F4F32F611D95DE1400E5024F /* LaunchScreen.storyboard */,
-				F4F32F641D95DE1400E5024F /* Info.plist */,
-				F4F32F5C1D95DE1400E5024F /* CoreDataAssignment.xcdatamodeld */,
+				F4D278E51D99D3EA000E33D3 /* Common Files */,
 				F4F32F501D95DE1400E5024F /* Supporting Files */,
-				F4F32F6A1D95DEB100E5024F /* ListProductsViewController.h */,
-				F4F32F6B1D95DEB100E5024F /* ListProductsViewController.m */,
-				F4F32F6D1D95DEDD00E5024F /* AddOrUpdateViewController.h */,
-				F4F32F6E1D95DEDD00E5024F /* AddOrUpdateViewController.m */,
-				F4F32F701D95F13300E5024F /* Products.h */,
-				F4F32F711D95F13300E5024F /* Products.m */,
-				F4F32F751D95F2AB00E5024F /* TableViewCell.h */,
-				F4F32F761D95F2AB00E5024F /* TableViewCell.m */,
-				F4F32F781D960F5E00E5024F /* CONSTANTS.h */,
 			);
 			path = CoreDataAssignment;
 			sourceTree = "<group>";
@@ -102,7 +134,6 @@
 		F4F32F501D95DE1400E5024F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4F32F511D95DE1400E5024F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,9 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F32F631D95DE1400E5024F /* LaunchScreen.storyboard in Resources */,
-				F4F32F741D95F27200E5024F /* TableViewCell.xib in Resources */,
+				F4D2791C1D9B2E48000E33D3 /* TableViewCell.xib in Resources */,
 				F4F32F601D95DE1400E5024F /* Assets.xcassets in Resources */,
+				F4D279291D9B2F02000E33D3 /* Info.plist in Resources */,
 				F4F32F5B1D95DE1400E5024F /* Main.storyboard in Resources */,
+				F4D2792C1D9B2F25000E33D3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,14 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F32F721D95F13300E5024F /* Products.m in Sources */,
-				F4F32F581D95DE1400E5024F /* ViewController.m in Sources */,
 				F4F32F551D95DE1400E5024F /* AppDelegate.m in Sources */,
-				F4F32F6F1D95DEDD00E5024F /* AddOrUpdateViewController.m in Sources */,
-				F4F32F521D95DE1400E5024F /* main.m in Sources */,
-				F4F32F771D95F2AB00E5024F /* TableViewCell.m in Sources */,
-				F4F32F6C1D95DEB100E5024F /* ListProductsViewController.m in Sources */,
-				F4F32F5E1D95DE1400E5024F /* CoreDataAssignment.xcdatamodeld in Sources */,
+				F4D279191D9B2E48000E33D3 /* AddOrUpdateViewController.m in Sources */,
+				F4D279221D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodeld in Sources */,
+				F4D2791B1D9B2E48000E33D3 /* TableViewCell.m in Sources */,
+				F4D279231D9B2E9C000E33D3 /* Products.m in Sources */,
+				F4D2792A1D9B2F02000E33D3 /* main.m in Sources */,
+				F4D2791A1D9B2E48000E33D3 /* ListProductsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CoreDataAssignment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreDataAssignment/Common Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webonise.CoreDataAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,7 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CoreDataAssignment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreDataAssignment/Common Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webonise.CoreDataAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,17 +368,19 @@
 				F4F32F691D95DE1400E5024F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F4F32F5C1D95DE1400E5024F /* CoreDataAssignment.xcdatamodeld */ = {
+		F4D2791E1D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F4F32F5D1D95DE1400E5024F /* CoreDataAssignment.xcdatamodel */,
+				F4D2791F1D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodel */,
 			);
-			currentVersion = F4F32F5D1D95DE1400E5024F /* CoreDataAssignment.xcdatamodel */;
-			path = CoreDataAssignment.xcdatamodeld;
+			currentVersion = F4D2791F1D9B2E9C000E33D3 /* CoreDataAssignment.xcdatamodel */;
+			name = CoreDataAssignment.xcdatamodeld;
+			path = Models/CoreDataAssignment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
